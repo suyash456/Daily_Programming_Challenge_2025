@@ -22,7 +22,7 @@ def GCD(a, b):
     return a
 
 def Find_LCM(n, m):
-    return (n * m) // gcd(n, m)
+    return (n * m) // GCD(n, m)
 #Test Case 1
 print(Find_LCM(4,6))
 #Test Case 2
@@ -32,4 +32,5 @@ print(Find_LCM(7,3))
 #Test Case 4
 print(Find_LCM(1,987654321))
 #Test Case 5
+
 print(Find_LCM(123456,789012))
